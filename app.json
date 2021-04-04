@@ -1,0 +1,12 @@
+{
+  "name": "focuse-time",
+  "displayName": "focuse-time",
+  "expo": {
+    "name": "focuse-time",
+    "slug": "focuse-time",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
