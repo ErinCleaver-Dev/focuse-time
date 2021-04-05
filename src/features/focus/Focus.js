@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {View, Text, StyleSheet } from 'react-native'
 import { TextInput } from 'react-native-paper'
 import { RoundedButton } from '../../components/RoundedButton'
-import {fontSize, spacing, Colors, alignment} from '../../utils/formating'
+import {fontSize, spacing, Colors, alignment} from '../../utils/formatting'
 
 export const Focus = ( { addSubject } ) => {
     const [tempItem, setTempItem] = useState(null);

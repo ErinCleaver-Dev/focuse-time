@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Focus } from './src/features/focus/Focus'
-import { Colors, alignment } from './src/utils/formating'
+import { Colors, alignment } from './src/utils/formatting'
 export default function App() {
   const [focusSubject, setFocusSubject] = useState(null);
 
