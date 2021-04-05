@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Focus } from './src/features/focus/Focus'
+import { Colors, alignment } from './src/utils/formating'
 export default function App() {
   const [focusSubject, setFocusSubject] = useState(null);
 
@@ -23,7 +24,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    backgroundColor: '#252250',
+    alignItems: alignment.center,
+    backgroundColor: Colors.darkBlue,
   },
 });
