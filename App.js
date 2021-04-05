@@ -8,14 +8,14 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>{
+      {
       focusSubject ? 
       <Text> Here is where the timer will be</Text> : 
       <Text>
-        <Focus />
+        <Focus addSubject={setFocusSubject}/>
       </Text>
-      }
-      </Text>
+      } 
+      <Text>{focusSubject}</Text>
     </View>
   );
 }
