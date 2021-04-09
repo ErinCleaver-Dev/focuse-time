@@ -18,7 +18,7 @@ export const spacing = {
     xxxl: 80
 }
 
-export const Colors = {
+export const colors = {
     white: 'white',
     darkBlue: '#252250'
 }

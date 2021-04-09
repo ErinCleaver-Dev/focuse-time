@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {View, Text, StyleSheet } from 'react-native'
 import { TextInput } from 'react-native-paper'
 import { RoundedButton } from '../../components/RoundedButton'
-import {fontSize, spacing, Colors, alignment} from '../../utils/formatting'
+import {fontSize, spacing, colors, alignment} from '../../utils/formatting'
 
 export const Focus = ( { addSubject } ) => {
     const [tempItem, setTempItem] = useState(null);
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
         justifyContent: alignment.center
     },
     title: {
-        color: Colors.white,
+        color: colors.white,
         fontWeight: 'bold',
         fontSize: fontSize.lg
     },

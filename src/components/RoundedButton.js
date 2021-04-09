@@ -1,6 +1,6 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet } from 'react-native'
-import {Colors, alignment} from '../utils/formatting'
+import {colors, alignment} from '../utils/formatting'
 
 
 export const RoundedButton = ({  style = { },
@@ -28,7 +28,7 @@ const styles = (size) => StyleSheet.create({
         height: size,
         alignItems: alignment.center,
         justifyContent: alignment.center,
-        borderColor: Colors.white,
+        borderColor: colors.white,
         borderWidth: 2
     },
     text: {
